@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biscayne Capital</title>
+  <meta name="description" content="Biscayne Capital — Industrials‑Focused Investment Firm in South Florida.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Biscayne Capital Home">
+        <img src="bc-logo.png" width="140" height="56" alt="Biscayne Capital logo" class="brand-logo" loading="eager" decoding="async">
+        <span>Biscayne&nbsp;Capital</span>
+      </a>
+      <nav class="nav">
+        <a href="#overview">Overview</a>
+        <a href="#criteria">Criteria</a>
+        <a href="#targets">Targets</a>
+        <a href="#team">Team</a>
+        <a href="#contact" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Industrials‑Focused Investment Firm</h1>
+      <p>Lower‑market buyouts and majority stakes, partnering with entrepreneurs and family businesses to drive operational improvement and long‑term success.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="#overview" class="btn btn-ghost">Our overview</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="overview" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Overview</h2>
+        <p>Biscayne Capital focuses on industrials and industrial services in South Florida.</p>
+      </div>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>Hands‑On, Proactive</h3>
+          <p>Operator‑led model with a focus on driving organic growth and professionalizing the organization.</p>
+        </article>
+        <article class="card">
+          <h3>Buyout & Majority Stakes</h3>
+          <p>We work primarily with entrepreneurs and family businesses looking to exit or find a long‑term partner.</p>
+        </article>
+        <article class="card">
+          <h3>Community‑Centered</h3>
+          <p>We’re committed to employees, customers, and the local community; founded in 2025 and based in Miami, Florida.</p>
+        </article>
+      </div>
+      <div class="mission">
+        <strong>Our mission:</strong> to acquire well‑run, local industrial businesses and, through disciplined capital and careful management, ensure their long‑term success.
+      </div>
+    </div>
+  </section>
+
+  <section id="criteria" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Investment Criteria</h2>
+        <p>Selective focus with clear size, sector, and geography parameters.</p>
+      </div>
+      <div class="grid-4 tiles">
+        <div class="tile"><span>~$500k – $1mm</span><small>Total Enterprise Value</small></div>
+        <div class="tile"><span>~$100k – $200k</span><small>EBITDA</small></div>
+        <div class="tile"><span>Industrials</span><small>Sector Focus</small></div>
+        <div class="tile"><span>South Florida</span><small>Geographic Focus</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="targets" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Targeted Investments</h2>
+        <p>Examples of priority sub‑sectors within industrials and services.</p>
+      </div>
+      <div class="grid-3 logos">
+        <div class="logo-card">HVAC</div>
+        <div class="logo-card">Electrical</div>
+        <div class="logo-card">Transportation & Logistics</div>
+        <div class="logo-card">Construction</div>
+        <div class="logo-card">Pool / Maintenance</div>
+        <div class="logo-card">Other Industrials</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Key Team Members</h2>
+        <p>Extensive experience in buyouts, M&A, capital raising, and risk management.</p>
+      </div>
+      <div class="grid-2 people">
+        <div class="person">
+          <img src="camilo.jpg" width="160" height="160" class="avatar-img" alt="Camilo Dibsi headshot" loading="lazy" decoding="async" />
+          <h3>Camilo Dibsi</h3>
+          <p>Investment Team — Selected experience: Apollo (Private Equity), Goldman Sachs (Investment Banking).</p>
+        </div>
+        <div class="person">
+          <img src="nabeh.jpg" width="160" height="160" class="avatar-img" alt="Nabeh Dibsi headshot" loading="lazy" decoding="async" />
+          <h3>Nabeh Dibsi</h3>
+          <p>Investment Team — Selected experience: Morgan Stanley (Sales & Trading, Risk Management).</p>
+        </div>
+      </div>
+      <div class="cred-note">The team has extensive experience across buyouts, M&A execution, capital raising, and risk management across Wall Street.</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>We welcome conversations with owners, operators, and intermediaries.</p>
+      </div>
+      <div class="contact-box">
+        <p><strong>Email:</strong> <a href="mailto:camilo@biscaynecapital.onmicrosoft.com">camilo@biscaynecapital.onmicrosoft.com</a><br/>
+        <strong>Phone:</strong> (305)‑833‑8916</p>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="grid-2">
+          <label>Full Name<input required name="name" placeholder="Your name"></label>
+          <label>Email<input required name="email" type="email" placeholder="you@company.com"></label>
+        </div>
+        <label>Message<textarea name="message" rows="5" placeholder="Tell us a bit about your company or opportunity."></textarea></label>
+        <button class="btn btn-primary" type="submit">Send</button>
+        <p class="form-note">This demo form logs to the console. Replace with your preferred form provider.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="bc-logo.png" width="140" height="56" alt="Biscayne logo" class="brand-logo" />
+        <div>
+          <strong>Biscayne Capital</strong><br>
+          Miami, Florida
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#overview">Overview</a>
+        <a href="#criteria">Criteria</a>
+        <a href="#targets">Targets</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">© <span id="year"></span> Biscayne Capital. All rights reserved.</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
